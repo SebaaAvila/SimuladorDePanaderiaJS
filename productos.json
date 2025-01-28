@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pan de Molde",
+        "precio": 120,
+        "origen": "Argentina",
+        "descripcion": "Pan de molde suave y esponjoso, ideal para el desayuno o merienda.",
+        "imagen": "images/PanDeMolde.jpg"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Facturas",
+        "precio": 80,
+        "origen": "Argentina",
+        "descripcion": "Una variedad de facturas frescas, como medialunas y vigilantes.",
+        "imagen": "images/Facturas.jpg"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Crostini",
+        "precio": 150,
+        "origen": "Italia",
+        "descripcion": "Deliciosos crostinis con diferentes sabores y toppings.",
+        "imagen": "images/Crostini.jpg"
+    },
+
+    {
+        "id": 4,
+        "nombre": "Baguette",
+        "precio": 90,
+        "origen": "Francia",
+        "descripcion": "Pan francés crujiente por fuera y suave por dentro.",
+        "imagen": "images/Baguette.jpg"
+    },
+
+    {
+        "id": 5,
+        "nombre": "Croissant",
+        "precio": 100,
+        "lugar_origen": "Francia",
+        "descripcion": "Delicioso croissant con una capa caramelizada, ideal para acompañar con café.",
+        "imagen": "images/croissant.jpg"
+    }
+]

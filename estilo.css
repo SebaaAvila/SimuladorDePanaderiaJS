@@ -1,0 +1,70 @@
+/* Estilos generales del header */
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #343a40;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 8px 16px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header a i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+header a:hover {
+    color: #28a745;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+header a:hover i {
+    color: #28a745;
+}
+
+header .badge {
+    background-color: #dc3545;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+header a:hover .badge {
+    background-color: #ff6347;
+}
+
+header a:hover .bi-cart-fill {
+    color: #28a745;
+}
+
+header:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos generales de las cards */
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
